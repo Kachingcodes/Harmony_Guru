@@ -1,0 +1,199 @@
+.guru{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.rightside{
+    flex: 1;
+    position: relative;
+    background-color: plum;
+}
+
+.the-best{
+    margin-top: 4rem;
+    background-color: white;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: purple;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the-best>div{
+    position: absolute;
+    background-color: lavender;
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.the-best>span{
+    z-index: 2;
+}
+
+.guru-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.guru-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figs{
+    display: flex;
+    gap: 2rem;
+}
+
+.figs>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.figs>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+    padding-top: 0.5rem;   
+}
+
+.figs>div>span:nth-of-type(2){
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+}
+
+.g-button{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+}
+
+.g-button>:nth-child(1){
+    color:white;
+    background-color: purple;
+    width: 8rem;
+}
+
+.g-button>:nth-child(2){
+    color:white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid purple;
+}
+
+.rightside>.btn{
+    position: absolute;
+    right: 5.5rem; top: 2rem; color: black;
+}
+
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: darkgrey;
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+
+}
+
+.heart-rate>img{
+    width: 2rem;
+}
+
+.heart-rate>:nth-child(2){
+    color: gray;
+}
+
+.heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.guru2_bg{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.yinyang2{
+    position: absolute;
+    top: 16rem;
+    right: 12rem;
+    width: 15rem;
+} 
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 35rem;
+    right: 1rem;
+}
+
+.calories>img{
+
+    width: 3rem;
+}
+
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories> div >:nth-child(1){
+    color: gray;
+}
+
+.calories> div >:nth-child(2){
+    color: white;
+    font-size: 1.5rem; 
+}
+
+.guru-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
+/* .yinyang2{
+    width:15rem;
+    left: 2rem;
+    top: 0rem;
+} */

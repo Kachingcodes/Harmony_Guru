@@ -1,0 +1,90 @@
+.Testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.left-test{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    color: white;
+}
+
+.left-test>:nth-child(1){
+    color: purple;
+    font-weight: bold;
+}
+
+.left-test>:nth-child(2),
+.left-test>:nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.left-test>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.right-test{
+    flex: 1;
+    position: relative;
+    overflow: hidden; 
+}
+
+.right-test>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 11rem;
+    top: 8rem;
+    object-fit: cover;
+    
+}
+
+.right-test>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    border: 2px solid purple;
+    background-color: transparent;
+    right: 12rem;
+    top: 7rem;
+}
+
+.right-test>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    background: purple;
+    top: 9rem;
+    right: 10rem;
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3.5rem;
+    cursor: pointer;
+    transform: translateY(-50%);
+ }
+
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.arrows>:leftArrow {
+    transform: translateX(-100%);
+  }
+  
+  .arrows>:rightArrow {
+    transform: translateX(100%);
+  }
+

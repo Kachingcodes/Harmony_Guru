@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.header2>li{
+    cursor: pointer;
+}
+
+.header2>li:hover{
+    color: #2b2b2b;
+}
+
+
+.logo{
+    width: 15rem;
+    height: 10rem;
+}
+

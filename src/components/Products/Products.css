@@ -1,0 +1,47 @@
+.prod-head{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: italic;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.equip{
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.equip:hover{
+    transform: scale(1.1);
+}
+
+.equip-types{
+    display: flex;
+    gap: 6rem;    
+    position: relative;
+    padding-left: 3rem;
+}
+
+.equip-types>img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.equipment{
+    display: flex;
+    gap: 1rem;
+    padding-left: 2.5rem;
+}
+
+.equip{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    color: black;
+    justify-content: space-between;
+}
+
+

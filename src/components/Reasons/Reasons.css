@@ -1,0 +1,107 @@
+.Reasons{
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.left-reas{
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    grid-auto-rows: 1fr;
+}
+
+.left-reas>img{
+    object-fit: cover;
+}
+
+.left-reas>:nth-child(1){
+    width: 21rem;
+    grid-row: 1/3;
+    height: 28rem;
+}
+
+.left-reas>:nth-child(2){
+    width: auto;
+    height: 14rem;
+    grid-column: 2/4;
+}
+
+.left-reas>:nth-child(3){
+    width: 13rem;
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.left-reas>:nth-child(4){
+    width: 10.5rem;
+    grid-row: 2;
+    grid-column: 3/4;
+    height: 13rem;
+}
+
+.right-reas{
+    flex: 1 1;
+    text-transform: uppercase;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-reas>span{
+    font-weight: bold;
+    color: purple;
+}
+
+.right-reas>div{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.details-r{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.details-r>div{
+    display: flex;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.details-r>div>img{
+    width: 4rem;
+    height: 2rem;
+}
+
+.details-r>div>span{
+    padding-top: 0.4rem;
+}
+
+.partners{
+    display: flex;
+    gap: 1rem;
+}
+
+.partners>img{
+    width: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
